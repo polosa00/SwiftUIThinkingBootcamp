@@ -12,6 +12,7 @@
 		119A68132AB8C45900F190C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119A68122AB8C45900F190C6 /* Assets.xcassets */; };
 		119A68162AB8C45900F190C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119A68152AB8C45900F190C6 /* Preview Assets.xcassets */; };
 		119A681D2AB8CF2400F190C6 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A681C2AB8CF2400F190C6 /* TextBootcamp.swift */; };
+		11BB91972AB8E3A600822599 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91962AB8E3A600822599 /* ShapesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		119A68122AB8C45900F190C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119A68152AB8C45900F190C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		119A681C2AB8CF2400F190C6 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		11BB91962AB8E3A600822599 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				119A680E2AB8C45800F190C6 /* SwiftUIThinkingBootcampApp.swift */,
 				119A68102AB8C45800F190C6 /* ContentView.swift */,
 				119A681C2AB8CF2400F190C6 /* TextBootcamp.swift */,
+				11BB91962AB8E3A600822599 /* ShapesBootcamp.swift */,
 				119A68122AB8C45900F190C6 /* Assets.xcassets */,
 				119A68142AB8C45900F190C6 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BB91972AB8E3A600822599 /* ShapesBootcamp.swift in Sources */,
 				119A68112AB8C45800F190C6 /* ContentView.swift in Sources */,
 				119A681D2AB8CF2400F190C6 /* TextBootcamp.swift in Sources */,
 				119A680F2AB8C45800F190C6 /* SwiftUIThinkingBootcampApp.swift in Sources */,
