@@ -22,6 +22,7 @@
 		11BB91A72ABB4AB000822599 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91A62ABB4AB000822599 /* StacksBootcamp.swift */; };
 		11BB91A92ABB533E00822599 /* PaddingAndSpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91A82ABB533E00822599 /* PaddingAndSpacerBootcamp.swift */; };
 		11BB91AB2ABB597400822599 /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91AA2ABB597400822599 /* SpacerBootcamp.swift */; };
+		11BB91F42AC32DF100822599 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91F32AC32DF100822599 /* InitializerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		11BB91A62ABB4AB000822599 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		11BB91A82ABB533E00822599 /* PaddingAndSpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerBootcamp.swift; sourceTree = "<group>"; };
 		11BB91AA2ABB597400822599 /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
+		11BB91F32AC32DF100822599 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				11BB91A62ABB4AB000822599 /* StacksBootcamp.swift */,
 				11BB91A82ABB533E00822599 /* PaddingAndSpacerBootcamp.swift */,
 				11BB91AA2ABB597400822599 /* SpacerBootcamp.swift */,
+				11BB91F32AC32DF100822599 /* InitializerBootcamp.swift */,
 				119A68122AB8C45900F190C6 /* Assets.xcassets */,
 				119A68142AB8C45900F190C6 /* Preview Content */,
 			);
@@ -175,6 +178,7 @@
 				11BB91A92ABB533E00822599 /* PaddingAndSpacerBootcamp.swift in Sources */,
 				11BB919D2ABA2CBF00822599 /* IconsBootcamp.swift in Sources */,
 				11BB91A22ABA3C2F00822599 /* FrameBootcamp.swift in Sources */,
+				11BB91F42AC32DF100822599 /* InitializerBootcamp.swift in Sources */,
 				11BB91992AB8EA6C00822599 /* ColorsBootcamp.swift in Sources */,
 				11BB91972AB8E3A600822599 /* ShapesBootcamp.swift in Sources */,
 				119A68112AB8C45800F190C6 /* ContentView.swift in Sources */,
