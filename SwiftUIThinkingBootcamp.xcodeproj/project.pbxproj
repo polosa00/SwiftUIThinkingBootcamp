@@ -24,6 +24,7 @@
 		11BB91AB2ABB597400822599 /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91AA2ABB597400822599 /* SpacerBootcamp.swift */; };
 		11BB91F42AC32DF100822599 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB91F32AC32DF100822599 /* InitializerBootcamp.swift */; };
 		11ED121D2AC47C8D00831C7F /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED121C2AC47C8D00831C7F /* ForEachBootcamp.swift */; };
+		11ED121F2AC48F0700831C7F /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		11BB91AA2ABB597400822599 /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
 		11BB91F32AC32DF100822599 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 		11ED121C2AC47C8D00831C7F /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
+		11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				11BB91AA2ABB597400822599 /* SpacerBootcamp.swift */,
 				11BB91F32AC32DF100822599 /* InitializerBootcamp.swift */,
 				11ED121C2AC47C8D00831C7F /* ForEachBootcamp.swift */,
+				11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */,
 				119A68122AB8C45900F190C6 /* Assets.xcassets */,
 				119A68142AB8C45900F190C6 /* Preview Content */,
 			);
@@ -178,6 +181,7 @@
 			files = (
 				11BB919B2ABA241D00822599 /* GradientsBootcamp.swift in Sources */,
 				11BB91A42ABB3C8400822599 /* BackgroundAndOverlayBootcamp.swift in Sources */,
+				11ED121F2AC48F0700831C7F /* ScrollViewBootcamp.swift in Sources */,
 				11BB91A92ABB533E00822599 /* PaddingAndSpacerBootcamp.swift in Sources */,
 				11BB919D2ABA2CBF00822599 /* IconsBootcamp.swift in Sources */,
 				11BB91A22ABA3C2F00822599 /* FrameBootcamp.swift in Sources */,
