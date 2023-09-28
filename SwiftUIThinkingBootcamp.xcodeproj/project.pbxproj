@@ -27,6 +27,7 @@
 		11ED121F2AC48F0700831C7F /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */; };
 		11ED12212AC5816100831C7F /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED12202AC5816100831C7F /* GridBootcamp.swift */; };
 		11ED12232AC5A08300831C7F /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED12222AC5A08300831C7F /* SafeAreaBootcamp.swift */; };
+		11ED12252AC5C15500831C7F /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED12242AC5C15500831C7F /* ButtonsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		11ED12202AC5816100831C7F /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
 		11ED12222AC5A08300831C7F /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
+		11ED12242AC5C15500831C7F /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */,
 				11ED12202AC5816100831C7F /* GridBootcamp.swift */,
 				11ED12222AC5A08300831C7F /* SafeAreaBootcamp.swift */,
+				11ED12242AC5C15500831C7F /* ButtonsBootcamp.swift */,
 				119A68122AB8C45900F190C6 /* Assets.xcassets */,
 				119A68142AB8C45900F190C6 /* Preview Content */,
 			);
@@ -193,6 +196,7 @@
 				11BB91A22ABA3C2F00822599 /* FrameBootcamp.swift in Sources */,
 				11BB91F42AC32DF100822599 /* InitializerBootcamp.swift in Sources */,
 				11BB91992AB8EA6C00822599 /* ColorsBootcamp.swift in Sources */,
+				11ED12252AC5C15500831C7F /* ButtonsBootcamp.swift in Sources */,
 				11ED12232AC5A08300831C7F /* SafeAreaBootcamp.swift in Sources */,
 				11BB91972AB8E3A600822599 /* ShapesBootcamp.swift in Sources */,
 				11ED121D2AC47C8D00831C7F /* ForEachBootcamp.swift in Sources */,
