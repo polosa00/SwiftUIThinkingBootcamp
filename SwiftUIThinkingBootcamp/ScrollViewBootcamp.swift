@@ -25,7 +25,7 @@ struct ScrollViewBootcamp: View {
                                                     Rectangle()
                                                         .fill(Color.pink)
                                                         .cornerRadius(6)
-                                                        .frame(width: 80, height: 20)
+                                                        .frame(width: 90, height: 20)
                                                         .offset(x: 55, y: -30)
                                                     Text("HIndex\(indexOne)")
                                                         .foregroundColor(.white)
