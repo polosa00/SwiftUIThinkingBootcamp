@@ -34,7 +34,7 @@ struct ExtractedFunctionBootcamp: View {
                 .foregroundColor(.green)
             Button {
                 pressedButton()
-            } label: {
+            } label: {  
                 Text("Pressed me!")
                     .foregroundColor(.white)
                     .frame(width: 200,height: 60)
