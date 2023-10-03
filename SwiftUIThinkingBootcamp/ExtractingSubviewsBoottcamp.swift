@@ -12,7 +12,7 @@ struct ExtractingSubviewsBoottcamp: View {
     var body: some View {
         ZStack {
             //background
-            Color.purple.ignoresSafeArea()
+            Color.cyan.ignoresSafeArea()
             
             //content
             contentView
