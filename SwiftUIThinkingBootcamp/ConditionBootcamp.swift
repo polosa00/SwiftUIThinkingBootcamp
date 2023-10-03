@@ -24,6 +24,7 @@ struct ConditionBootcamp: View {
                 
                 if showProgressView {
                     ProgressView()
+                        .tint(.purple)
                 }
                 Spacer()
             }
