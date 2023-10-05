@@ -10,27 +10,35 @@ import SwiftUI
 struct NavigationViewBootcamp: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                NavigationLink("Go to secon screen", destination: SecondScreen())
-                
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                Text("Hello world")
+            ZStack {
+                Color.purple.ignoresSafeArea()
+                VStack {
+                    NavigationLink("Go to second screen", destination: SecondScreen())
+                    
+                    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                    Text("Hello world")
+                }
+                .navigationTitle("Text for TITLE")
+                .navigationBarItems(
+                    leading:
+                        HStack{
+                            Image(systemName: "person.fill")
+
+                            Text("Some text will be here")
+                                .font(.title)
+                        },
+
+                    trailing:
+                        NavigationLink(
+                            destination: SecondScreen(),
+                            label: {
+                                Image(systemName: "gear")
+                            })
+                        .tint(.white)
+                )
+              
+    
             }
-            .navigationTitle("Text for TITLE")
-            .navigationBarItems(
-                leading:
-                    HStack{
-                        Image(systemName: "person.fill")
-                    },
-                trailing:
-                    NavigationLink(
-                        destination: SecondScreen(),
-                        label: {
-                        Image(systemName: "gear")
-                    })
-                    .tint(.purple)
-            )
-            
         }
     }
 }

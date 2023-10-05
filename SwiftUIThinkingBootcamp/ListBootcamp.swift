@@ -22,14 +22,22 @@ struct ListBootcamp: View {
                         } label: {
                             
                             Text(fruit.capitalized)
+                                .font(.caption)
+                                .foregroundColor(.orange)
                         }
 
                     }
+                    .onDelete(perform: delete)
+                    .onMove(perform: move)
+                    
+                    
                 } header: {
                     HStack{
                         Text("Fruits")
                         Image(systemName: "flame.fill")
                     }
+                    .foregroundColor(Color.cyan)
+                    .font(.headline)
                 }
                 
                 Section {
@@ -42,12 +50,34 @@ struct ListBootcamp: View {
                         Image(systemName: "heart.fill")
                     }
                 }
-                
-                
-                
+            
             }
+            .tint(.green)
+//            .listStyle(InsetGroupedListStyle())
             .navigationTitle("Tittle")
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing: addButton
+            )
         }
+        .tint(.red)
+    }
+    
+    var addButton: some View {
+        Button("Add", action: add)
+    }
+    
+    func delete(_ indexSet: IndexSet) {
+        fruits.remove(atOffsets: indexSet)
+
+    }
+    
+    func move(indices: IndexSet, newOffset: Int) {
+        fruits.move(fromOffsets: indices, toOffset: newOffset)
+    }
+    
+    func add() {
+        fruits.append("coconut")
     }
 }
 
