@@ -37,7 +37,7 @@ struct AlertBootcamp: View {
             .foregroundColor(.white)
             .alert(isPresented: $showAlert) {
                 getAlert()
-            }
+            } 
         }
     }
     
