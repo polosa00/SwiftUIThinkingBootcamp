@@ -15,8 +15,7 @@ struct DatePickerBootcamp: View {
     
     var dateFormatter: DateFormatter {
         let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        formatter.dateFormat 
+        formatter.dateStyle = .long
         return formatter
     }
     
@@ -24,6 +23,7 @@ struct DatePickerBootcamp: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Text(dateFormatter.string(from: selectedDate))
+                .font(.title)
             
             Text("1. Example")
                 .font(.headline)
