@@ -22,11 +22,12 @@ struct TextEditorBootcamp: View {
                     dataForList = textEditorText
                 } label: {
                     Text ("SAVE")
+                        .font(.headline)
                         .frame(maxWidth: .infinity)
                         .frame(height: 45)
                         .background(.blue)
                         .foregroundColor(.white)
-                        .cornerRadius(15)
+                        .cornerRadius(10)
                     
                     
                 }
