@@ -14,33 +14,37 @@ struct SliderBootcamp: View {
     
     var body: some View {
         
-        VStack {
-            HStack {
-                Text("Rating")
-                Text(String(format: "%.2f", sliderValue))
-                    .foregroundColor(colorText)
-            }
-            Slider(
-                value: $sliderValue,
-                in: 1...20, step: 0.25) {
-                    Text("Title")
-                } minimumValueLabel: {
-                    Text("1")
-                } maximumValueLabel: {
-                    Text("20")
-                    
-                } onEditingChanged: { _ in
-                    if sliderValue <= 5 {
-                        colorText = .red
-                    } else if sliderValue >= 15 {
-                        colorText = .blue
-                    } else {
-                        colorText = .green
-                    }
+        ZStack {
+            Color.purple.ignoresSafeArea()
+            VStack {
+                HStack {
+                    Text("Rating")
+                    Text(String(format: "%.2f", sliderValue))
+                        .foregroundColor(colorText)
                 }
-    
+                Slider(
+                    value: $sliderValue,
+                    in: 1...20, step: 0.25) {
+                        Text("Title")
+                    } minimumValueLabel: {
+                        Text("1")
+                    } maximumValueLabel: {
+                        Text("20")
+                        
+                    } onEditingChanged: { _ in
+                        if sliderValue <= 5 {
+                            colorText = .red
+                        } else if sliderValue >= 15 {
+                            colorText = .blue
+                        } else {
+                            colorText = .green
+                        }
+                    }
+                    .tint(.cyan)
+        
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
