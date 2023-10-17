@@ -52,6 +52,7 @@ struct DocumentaionBootcamp: View {
                 Text(name)
                     .foregroundColor(.white)
                     .font(.headline)
+                
             }
         }
         
