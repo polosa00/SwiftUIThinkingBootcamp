@@ -1,5 +1,5 @@
 //
-//  DarckModeBootcamp.swift
+//  DarkModeBootcamp.swift
 //  SwiftUIThinkingBootcamp
 //
 //  Created by Александр Полочанин on 17.10.23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DarckModeBootcamp: View {
+struct DarkModeBootcamp: View {
     
     @Environment(\.colorScheme) var colorScheme
     
@@ -36,12 +36,12 @@ struct DarckModeBootcamp: View {
     }
 }
 
-struct DarckModeBootcamp_Previews: PreviewProvider {
+struct DarkModeBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            DarckModeBootcamp()
+            DarkModeBootcamp()
                 .preferredColorScheme(.light)
-            DarckModeBootcamp()
+            DarkModeBootcamp()
                 .preferredColorScheme(.dark)
             
         }
