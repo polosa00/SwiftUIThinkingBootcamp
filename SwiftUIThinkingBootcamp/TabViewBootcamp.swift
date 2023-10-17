@@ -106,7 +106,7 @@ struct ForthTabView: View {
             }
             .cornerRadius(20)
             
-        }
+        } 
     }
 }
 

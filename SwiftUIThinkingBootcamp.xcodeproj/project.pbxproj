@@ -40,6 +40,7 @@
 		11C0F3042AD83AE500F93719 /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0F3032AD83AE500F93719 /* StepperBootcamp.swift */; };
 		11C0F3062AD8425100F93719 /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0F3052AD8425100F93719 /* SliderBootcamp.swift */; };
 		11C0F3082AD84A3800F93719 /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0F3072AD84A3800F93719 /* TabViewBootcamp.swift */; };
+		11CA49982ADEB53C0011010C /* DarckModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CA49972ADEB53C0011010C /* DarckModeBootcamp.swift */; };
 		11ED121D2AC47C8D00831C7F /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED121C2AC47C8D00831C7F /* ForEachBootcamp.swift */; };
 		11ED121F2AC48F0700831C7F /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */; };
 		11ED12212AC5816100831C7F /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED12202AC5816100831C7F /* GridBootcamp.swift */; };
@@ -85,6 +86,7 @@
 		11C0F3032AD83AE500F93719 /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
 		11C0F3052AD8425100F93719 /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 		11C0F3072AD84A3800F93719 /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
+		11CA49972ADEB53C0011010C /* DarckModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarckModeBootcamp.swift; sourceTree = "<group>"; };
 		11ED121C2AC47C8D00831C7F /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		11ED121E2AC48F0700831C7F /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		11ED12202AC5816100831C7F /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				11C0F3032AD83AE500F93719 /* StepperBootcamp.swift */,
 				11C0F3052AD8425100F93719 /* SliderBootcamp.swift */,
 				11C0F3072AD84A3800F93719 /* TabViewBootcamp.swift */,
+				11CA49972ADEB53C0011010C /* DarckModeBootcamp.swift */,
 				119A68122AB8C45900F190C6 /* Assets.xcassets */,
 				119A68142AB8C45900F190C6 /* Preview Content */,
 			);
@@ -273,6 +276,7 @@
 				111D4EC22AD48B0C00EBB2BA /* ContextMenuBootcamp.swift in Sources */,
 				11ED121D2AC47C8D00831C7F /* ForEachBootcamp.swift in Sources */,
 				11C0F2F82AD5E44700F93719 /* TextFieldBootcamp.swift in Sources */,
+				11CA49982ADEB53C0011010C /* DarckModeBootcamp.swift in Sources */,
 				11C0F2FA2AD5EC3800F93719 /* TextEditorBootcamp.swift in Sources */,
 				11C0F3082AD84A3800F93719 /* TabViewBootcamp.swift in Sources */,
 				119A68112AB8C45800F190C6 /* ContentView.swift in Sources */,
