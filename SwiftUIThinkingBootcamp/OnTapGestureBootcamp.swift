@@ -18,34 +18,37 @@ struct OnTapGestureBootcamp: View {
                 .frame(height: 200)
                 .foregroundColor(isSelected ? .indigo : .orange)
             
-            Button {
-                isSelected.toggle()
-            } label: {
-                Text("Button")
+            
+            VStack(spacing: 20) {
+                Button {
+                    isSelected.toggle()
+                } label: {
+                    Text("Button")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 40)
+                        .background(.pink)
+                        .cornerRadius(25)
+                }
+                
+                Text("Tap GESTURE")
                     .font(.headline)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .frame(height: 40)
                     .background(.pink)
                     .cornerRadius(25)
+                    .onTapGesture(count: 2) {
+                        isSelected.toggle()
+                    }
                 
             }
-            
-            Text("Tap GESTURE")
-                .font(.headline)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity)
-                .frame(height: 40)
-                .background(.pink)
-                .cornerRadius(25)
-                .onTapGesture(count: 2) {
-                    isSelected.toggle()
-                }
             
             Spacer()
 
         }
-        .padding()
+        .padding(40)
     }
 }
 
