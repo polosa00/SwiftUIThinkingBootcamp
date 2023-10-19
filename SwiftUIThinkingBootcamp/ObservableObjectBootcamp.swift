@@ -52,6 +52,7 @@ struct ObservableObjectBootcamp: View {
                 
                 if fruitViewModel.isLoading {
                     ProgressView()
+                        .tint(.indigo)
                 } else {
                     Section {
                         ForEach(fruitViewModel.fruits) { fruit in
@@ -105,14 +106,19 @@ struct TestingView: View {
         ZStack {
             Color.indigo.ignoresSafeArea()
             
-            VStack {
+            VStack(spacing: 40) {
                 
-//                List {
-//                    ForEach(fruitViewModel.fruits) { fruit in
-//                        Text(fruit.name)
-//                    }
-//
-//                }
+                VStack(spacing: 20) {
+                    ForEach(fruitViewModel.fruits) { fruit in
+                        Text(fruit.name)
+                            .bold()
+                            .foregroundColor(.white)
+                    
+                }
+                    
+
+                }
+                .listStyle(DefaultListStyle())
                 
                 Button {
                     dismiss.callAsFunction()
@@ -122,9 +128,12 @@ struct TestingView: View {
                         .bold()
                         .foregroundColor(.white)
                 }
+                
+                Spacer()
 
             }
         }
+        .tint(.indigo)
     }
 }
 

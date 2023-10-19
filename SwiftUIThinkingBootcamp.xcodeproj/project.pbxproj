@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1111DA402AE17DC700005B16 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DA3F2AE17DC700005B16 /* EnvironmentObjectBootcamp.swift */; };
 		111D4EC02AD47DEF00EBB2BA /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D4EBF2AD47DEF00EBB2BA /* ActionSheetBootcamp.swift */; };
 		111D4EC22AD48B0C00EBB2BA /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D4EC12AD48B0B00EBB2BA /* ContextMenuBootcamp.swift */; };
 		112CA69F2ACF130F003561A2 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CA69E2ACF130F003561A2 /* AlertBootcamp.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1111DA3F2AE17DC700005B16 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		111D4EBF2AD47DEF00EBB2BA /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
 		111D4EC12AD48B0B00EBB2BA /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		112CA69E2ACF130F003561A2 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				11CA499F2AE0179B0011010C /* OnTapGestureBootcamp.swift */,
 				11CA49A12AE01F5A0011010C /* ModelBootcamp.swift */,
 				11CA49A32AE11C670011010C /* ObservableObjectBootcamp.swift */,
+				1111DA3F2AE17DC700005B16 /* EnvironmentObjectBootcamp.swift */,
 				119A68122AB8C45900F190C6 /* Assets.xcassets */,
 				119A68142AB8C45900F190C6 /* Preview Content */,
 			);
@@ -291,6 +294,7 @@
 				11C0F3002AD7029800F93719 /* ColorPickerBootcamp.swift in Sources */,
 				11ED12252AC5C15500831C7F /* ButtonsBootcamp.swift in Sources */,
 				11ED12232AC5A08300831C7F /* SafeAreaBootcamp.swift in Sources */,
+				1111DA402AE17DC700005B16 /* EnvironmentObjectBootcamp.swift in Sources */,
 				11BB91972AB8E3A600822599 /* ShapesBootcamp.swift in Sources */,
 				11C0F3062AD8425100F93719 /* SliderBootcamp.swift in Sources */,
 				111D4EC22AD48B0C00EBB2BA /* ContextMenuBootcamp.swift in Sources */,
